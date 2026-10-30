@@ -1,0 +1,36 @@
+# Build directories and artifacts
+bin/
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.out
+*.exe
+*.dSYM/
+gmon.out
+
+# Tooling, language servers & caches
+.cache/
+.clangd/
+*.idx
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
